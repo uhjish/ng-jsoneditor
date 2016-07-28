@@ -1,6 +1,6 @@
+'use strict';
 angular.module('ngjsoneditor', [])
-.constant('ngJsoneditorConfig', {});
-
+.constant('ngJsoneditorConfig', {})
 .directive('ngJsoneditor', ['ngJsoneditorConfig', '$timeout', function (ngJsoneditorConfig, $timeout) {
     var defaults = ngJsoneditorConfig || {};
 
